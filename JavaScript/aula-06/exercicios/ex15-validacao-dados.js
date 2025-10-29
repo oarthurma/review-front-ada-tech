@@ -7,3 +7,12 @@ Crie um programa que:
 - Se for número válido, calcule e exiba sua raiz quadrada
 - Se for NaN, exiba: "Valor inválido!"
 */
+const prompt = require("readline-sync");
+
+const num = Number(prompt.question("Informe um numero: "));
+if (isNaN(num)) {
+  console.log("Valor invalido!");
+} else {
+  const raiz = Math.sqrt(num);
+  console.log(`Raiz quadrada de ${num} = ${raiz}`);
+}

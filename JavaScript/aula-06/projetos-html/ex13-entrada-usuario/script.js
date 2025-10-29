@@ -7,4 +7,9 @@ Implemente aqui o código para:
 - Exibir: "Olá [nome], você tem [idade] anos"
 */
 
-// SEU CÓDIGO AQUI 👇
+const resposta = document.querySelector("h3");
+
+const nome = prompt("Informe seu nome: ");
+const idade = Number(prompt("Informe a sua idade"));
+
+resposta.innerText = `Olá ${nome}, você tem ${idade} anos`;
