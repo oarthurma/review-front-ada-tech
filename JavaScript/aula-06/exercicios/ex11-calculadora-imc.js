@@ -6,3 +6,13 @@ Crie um programa que:
 - Use Math.pow() para calcular o quadrado da altura
 - Exiba: "Seu IMC é: X"
 */
+
+// Entrada de dados:
+const peso = 102;
+const altura = 1.87;
+
+// Processamento
+const imc = peso / Math.pow(altura, 2);
+
+// Saída de dados:
+console.log("Seu IMC é:", imc.toFixed(2));
