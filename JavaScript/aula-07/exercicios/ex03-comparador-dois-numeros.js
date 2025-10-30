@@ -12,3 +12,15 @@ O número 15 é maior que 10
 
 Dica: Use os operadores `>`, `<` e `===` para fazer as comparações.
 */
+
+// Declaração das variáveis
+const numero1 = 15;
+const numero2 = 10;
+
+if (numero1 > numero2) {
+  console.log(`O numero ${numero1} eh maior que ${numero2}`);
+} else if (numero1 < numero2) {
+  console.log(`O numero ${numero2} eh maior que ${numero1}`);
+} else {
+  console.log(`Os dois numeros sao iguais`);
+}

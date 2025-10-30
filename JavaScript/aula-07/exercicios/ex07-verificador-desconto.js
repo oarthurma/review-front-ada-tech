@@ -12,3 +12,11 @@ Você tem desconto de 10%
 
 Dica: Use o operador `>` para comparar o valor da compra com 100.
 */
+
+const valorCompra = 150;
+
+if (valorCompra > 100) {
+  console.log("Você tem desconto de 10%");
+} else {
+  console.log("Sem desconto");
+}

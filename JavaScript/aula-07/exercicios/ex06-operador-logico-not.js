@@ -12,3 +12,10 @@ Faça login para continuar
 
 Dica: O operador `!` inverte o valor booleana: `!false` vira `true`.
 */
+
+const estaLogado = false;
+if (!estaLogado) {
+  console.log("Faça login para continuar");
+} else {
+  console.log("Bem-vindo!");
+}

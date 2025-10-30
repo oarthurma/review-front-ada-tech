@@ -12,3 +12,11 @@ Maior de idade
 
 Dica: Use o operador de comparação `>=` para verificar se a idade é maior ou igual a 18.
 */
+
+const idade = 40;
+
+if (idade >= 18) {
+  console.log("Maior de idade");
+} else {
+  console.log("Menor de idade");
+}

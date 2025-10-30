@@ -14,13 +14,26 @@ Dica: Teste primeiro se é zero (`===`), depois se é maior que zero (`>`), e us
 */
 
 // Declara uma constante com o número a ser classificado
-const numero = -19;
+// const numero = -19;
 
 // Verifica se o número é zero
-if (numero === 0) {
-  console.log("Zero"); // Se for exatamente zero, exibe "Zero"
-} else if (numero > 0) {
-  console.log("Positivo"); // Se for maior que zero, exibe "Positivo"
-} else {
-  console.log("Negativo"); // Se não for zero nem positivo, é negativo
+// if (numero === 0) {
+//   console.log("Zero"); // Se for exatamente zero, exibe "Zero"
+// } else if (numero > 0) {
+//   console.log("Positivo"); // Se for maior que zero, exibe "Positivo"
+// } else {
+//   console.log("Negativo"); // Se não for zero nem positivo, é negativo
+// }
+
+function classificarNumero(numero) {
+  if (numero === 0) {
+    return "Zero";
+  } else if (numero > 0) {
+    return "Positivo";
+  } else {
+    return "Negativo";
+  }
 }
+
+// Teste da função
+console.log(classificarNumero(-19)); // Negativo

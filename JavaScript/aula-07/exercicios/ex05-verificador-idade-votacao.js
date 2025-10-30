@@ -12,3 +12,11 @@ Pode votar
 
 Dica: A idade mínima para votar no Brasil é 16 anos.
 */
+
+const idade = 40;
+
+if (idade >= 16) {
+  console.log("Pode votar");
+} else {
+  console.log("Não pode votar");
+}

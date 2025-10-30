@@ -17,4 +17,4 @@ console.log(`2 elevado a 10 = ${Math.pow(2, 10)}`);
 console.log(`Arredondar 7.8 = ${Math.round(7.8)}`);
 
 // Exibir o maior número entre: 45, 23, 89, 12 (use Math.max())
-console.log(`maior número entre: 45, 23, 89, 12 = ${Math.max(45, 23, 89, 12)}`);
+console.log(`Maior número entre: 45, 23, 89, 12 = ${Math.max(45, 23, 89, 12)}`);

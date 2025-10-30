@@ -12,3 +12,13 @@ O número 8 é par
 
 Dica: Um número é par quando `numero % 2 === 0`.
 */
+
+// Declarando a constante
+const numero = 8;
+
+// Verificando se é par ou impar
+if (numero % 2 === 0) {
+  console.log(`O numero ${numero} eh par`);
+} else {
+  console.log(`O numero ${numero} eh impar`);
+}
