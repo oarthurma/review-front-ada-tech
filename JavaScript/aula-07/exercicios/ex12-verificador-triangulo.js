@@ -13,3 +13,14 @@ Forma um triângulo
 
 Dica: Verifique: `(lado1 < lado2 + lado3) && (lado2 < lado1 + lado3) && (lado3 < lado1 + lado2)`.
 */
+
+// Declaração de variáveis
+const lado1 = 6;
+const lado2 = 5;
+const lado3 = 2;
+
+if (lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado1 + lado2) {
+  console.log("Forma um triângulo");
+} else {
+  console.log("Não forma um triângulo");
+}
