@@ -17,3 +17,13 @@ IMC: 22.5 - Peso normal
 
 Dica: Use `Math.pow(altura, 2)` ou `altura * altura` para calcular altura ao quadrado.
 */
+
+const peso = 102;
+const altura = 1.87;
+
+const imc = (peso / Math.pow(altura, 2)).toFixed(1); // ou peso / (altura * altura)
+
+if (imc < 18.5) {
+  console.log(`IMC: ${imc} - Abaixo do peso.`);
+} else if (imc < 25) {
+}
