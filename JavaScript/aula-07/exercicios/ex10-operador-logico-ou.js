@@ -12,3 +12,11 @@ Final de semana!
 
 Dica: Use `if (dia === "sábado" || dia === "domingo")` - basta uma condição ser verdadeira.
 */
+
+const dia = "quinta-feira";
+
+if (dia === "sábado" || dia === "domingo") {
+  console.log("Final de semana!");
+} else {
+  console.log("Dia de semana");
+}

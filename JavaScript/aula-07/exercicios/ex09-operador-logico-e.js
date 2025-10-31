@@ -12,3 +12,12 @@ Pode dirigir
 
 Dica: Use `if (idade >= 18 && possuiCNH)` - ambas as condições devem ser verdadeiras.
 */
+
+const idade = 19;
+const possuiCNH = true;
+
+if (idade >= 18 && possuiCNH) {
+  console.log("Pode dirigir");
+} else {
+  console.log("Não pode dirigir");
+}
