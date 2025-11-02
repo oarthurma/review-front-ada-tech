@@ -15,3 +15,13 @@ Soma total: 21
 
 Dica: Use Number() para garantir que está somando números.
 */
+
+const prompt = require("readline-sync");
+let soma = 0;
+
+for (let i = 0; i < 3; i++) {
+  const nota = Number(prompt.question("Digite a nota: " + i));
+  soma += nota;
+}
+
+console.log(`Soma total: ${soma}`);

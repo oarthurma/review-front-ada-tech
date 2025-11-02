@@ -15,3 +15,14 @@ Saldo registrado: 100
 
 Dica: Use Number() para converter a entrada e while para repetir até a condição ser satisfeita.
 */
+
+const prompt = require("readline-sync");
+
+let saldo = Number(prompt.question("Digite seu saldo: "));
+
+while (isNaN(saldo) || saldo < 0) {
+  console.log("Saldo inválido. Tente novamente.");
+  saldo = Number(prompt.question("Digite seu saldo: "));
+}
+
+console.log(`Saldo registrado: ${saldo}`);

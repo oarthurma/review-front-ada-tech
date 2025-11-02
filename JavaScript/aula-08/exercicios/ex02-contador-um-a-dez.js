@@ -14,3 +14,10 @@ Exemplo de saída esperada:
 
 Dica: Inicialize uma variável com 1 e incremente a cada iteração.
 */
+
+let num = 1;
+
+while (num <= 10) {
+  console.log(num);
+  num++;
+}

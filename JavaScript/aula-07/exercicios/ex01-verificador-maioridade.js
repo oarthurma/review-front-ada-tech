@@ -12,8 +12,9 @@ Maior de idade
 
 Dica: Use o operador de comparação `>=` para verificar se a idade é maior ou igual a 18.
 */
+const prompt = require("readline-sync");
 
-const idade = 40;
+const idade = Number(prompt.question("Qual é a sua idade? "));
 
 if (idade >= 18) {
   console.log("Maior de idade");

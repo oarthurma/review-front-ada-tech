@@ -13,3 +13,16 @@ Login realizado com sucesso!
 
 Dica: Use `if (usuario === usuarioCorreto && senha === senhaCorreta)`.
 */
+
+// Declaração de vaiáveis
+const usuario = "blabumbr";
+const senha = "1234";
+
+const usuarioCorreto = "admin";
+const senhaCorreta = "123456";
+
+if (usuario === usuarioCorreto && senha === senhaCorreta) {
+  console.log("Login realizado com sucesso!");
+} else {
+  console.log("Usuário ou senha incorretos");
+}
