@@ -11,9 +11,7 @@ criar_exercicio() {
     local nome=$2
     local conteudo=$3
     
-    cat > "exercicios/ex$numero-$nome.js" << 'EOF'
-$conteudo
-EOF
+    echo "$conteudo" > "exercicios/ex$numero-$nome.js"
 }
 
 # --- EXERCÍCIOS INICIANTES ---
