@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 4: Listando Frutas com for...of
+🟢 Nível Iniciante - Exercício 12: Listando Frutas com for...of
 
 Dado um array de frutas, use um loop for...of para imprimir 
 cada fruta no console.
@@ -20,4 +20,3 @@ sem precisar de índice.
 */
 
 // Escreva seu código abaixo:
-

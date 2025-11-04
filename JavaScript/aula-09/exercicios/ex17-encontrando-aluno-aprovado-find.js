@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 9: Encontrando Aluno Aprovado com find()
+🟡 Nível Intermediário - Exercício 17: Encontrando Aluno Aprovado com find()
 
 Você tem um array de objetos representando alunos. Use .find() 
 para encontrar o primeiro aluno com nota >= 7.
@@ -16,4 +16,3 @@ Dica: .find() retorna o primeiro elemento que satisfaz a condição, não um arr
 */
 
 // Escreva seu código abaixo:
-

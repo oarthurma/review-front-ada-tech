@@ -1,5 +1,5 @@
 /*
-🔴 Nível Avançado - Exercício 18: Relatório de Vendas com reduce()
+🔴 Nível Avançado - Exercício 26: Relatório de Vendas com reduce()
 
 Crie relatório mostrando valor total vendido por categoria usando .reduce().
 
@@ -20,4 +20,3 @@ Verifique se acumulador[venda.cat] já existe.
 */
 
 // Escreva seu código abaixo:
-

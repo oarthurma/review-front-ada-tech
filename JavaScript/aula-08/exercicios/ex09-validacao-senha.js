@@ -15,3 +15,16 @@ Senha aceita!
 
 Dica: Use .length para verificar o tamanho da string.
 */
+
+const prompt = require("readline-sync");
+
+let senha = "";
+
+do {
+  senha = prompt.question("Digite sua senha: ");
+  if (senha.length < 6) {
+    console.log("Senha muito curta. Tente novamente");
+  }
+} while (senha.length < 6);
+
+console.log("Senha aceita!");

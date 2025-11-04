@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 8: Filtrando Números Pares com filter()
+🟡 Nível Intermediário - Exercício 16: Filtrando Números Pares com filter()
 
 Dado um array de números, crie um novo array contendo apenas 
 os números pares usando .filter().
@@ -16,4 +16,3 @@ Dica: Use o operador módulo (%). numero % 2 === 0 verifica se é par.
 */
 
 // Escreva seu código abaixo:
-

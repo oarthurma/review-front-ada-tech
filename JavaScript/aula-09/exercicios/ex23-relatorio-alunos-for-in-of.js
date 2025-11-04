@@ -1,5 +1,5 @@
 /*
-🔴 Nível Avançado - Exercício 15: Relatório de Alunos com for...in e for...of
+🔴 Nível Avançado - Exercício 23: Relatório de Alunos com for...in e for...of
 
 Você tem array de alunos com notas. Use for...of para iterar, 
 calcule média das notas, e use for...in para imprimir relatório.
@@ -22,4 +22,3 @@ Dica: Use .reduce() dentro do for...of para somar notas e calcular média.
 */
 
 // Escreva seu código abaixo:
-

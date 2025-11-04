@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 10: Somando Carrinho com reduce()
+🟡 Nível Intermediário - Exercício 18: Somando Carrinho com reduce()
 
 Dado um array de preços, use .reduce() para calcular o valor 
 total do carrinho.
@@ -16,4 +16,3 @@ Dica: .reduce() usa um acumulador (total) e o valor atual em sua função.
 */
 
 // Escreva seu código abaixo:
-

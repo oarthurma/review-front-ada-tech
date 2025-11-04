@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 12: Combinando map() e filter()
+🟡 Nível Intermediário - Exercício 20: Combinando map() e filter()
 
 Dado um array de idades, use .map() para classificar como "Maior" 
 ou "Menor" de idade, depois .filter() para pegar apenas maiores.
@@ -17,4 +17,3 @@ Dica: Você pode encadear os métodos: idades.map(...).filter(...).
 */
 
 // Escreva seu código abaixo:
-

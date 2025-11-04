@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 3: Garantindo Entrada com do-while
+🟢 Nível Iniciante - Exercício 11: Garantindo Entrada com do-while
 
 Crie um loop do-while simulado que valide se um número é maior que 10.
 
@@ -18,4 +18,3 @@ pelo menos uma vez antes de checar a condição.
 */
 
 // Escreva seu código abaixo:
-

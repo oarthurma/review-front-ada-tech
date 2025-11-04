@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 2: Tabuada com for
+🟢 Nível Iniciante - Exercício 10: Tabuada com for
 
 Escreva um programa que use um loop for para imprimir a tabuada 
 de um número de 1 a 10.
@@ -25,4 +25,3 @@ Dica: A variável de controle do for (geralmente i) será seu multiplicador.
 */
 
 // Escreva seu código abaixo:
-

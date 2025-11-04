@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 7: Dobrando Números com map()
+🟢 Nível Iniciante - Exercício 15: Dobrando Números com map()
 
 Dado um array de números, crie um novo array onde cada número 
 é o dobro do original usando .map().
@@ -17,4 +17,3 @@ mas com valores transformados.
 */
 
 // Escreva seu código abaixo:
-

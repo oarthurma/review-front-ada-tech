@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 11: Pulando Múltiplos de 3 com continue
+🟡 Nível Intermediário - Exercício 19: Pulando Múltiplos de 3 com continue
 
 Use um loop for para iterar de 1 a 20. Use continue para pular 
 múltiplos de 3.
@@ -29,4 +29,3 @@ Dica: i % 3 === 0 verifica se i é múltiplo de 3.
 */
 
 // Escreva seu código abaixo:
-

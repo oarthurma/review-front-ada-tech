@@ -1,5 +1,5 @@
 /*
-🟡 Nível Intermediário - Exercício 13: Busca e Transformação de Produtos
+🟡 Nível Intermediário - Exercício 21: Busca e Transformação de Produtos
 
 Você tem produtos. Use .map() para aplicar 10% de desconto, 
 depois .filter() para manter apenas os que custam mais de R$ 100.
@@ -17,4 +17,3 @@ Dica: Use spread operator: {...produto, preco: novoPreco}.
 */
 
 // Escreva seu código abaixo:
-

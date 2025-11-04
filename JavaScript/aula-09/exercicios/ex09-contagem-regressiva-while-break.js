@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 1: Contagem Regressiva com while
+🟢 Nível Iniciante - Exercício 09: Contagem Regressiva com while
 
 Crie um script que use um loop while para fazer uma contagem regressiva 
 de 10 até 1. O loop deve parar quando o número chegar a 4.
@@ -22,4 +22,3 @@ Use um if para verificar a condição do break.
 */
 
 // Escreva seu código abaixo:
-

@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 5: Propriedades do Objeto com for...in
+🟢 Nível Iniciante - Exercício 13: Propriedades do Objeto com for...in
 
 Dado um objeto que representa um carro, use um loop for...in 
 para imprimir as propriedades e valores.
@@ -19,4 +19,3 @@ Use objeto[chave] para acessar o valor.
 */
 
 // Escreva seu código abaixo:
-

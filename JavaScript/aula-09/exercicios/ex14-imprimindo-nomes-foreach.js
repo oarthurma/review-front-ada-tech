@@ -1,5 +1,5 @@
 /*
-🟢 Nível Iniciante - Exercício 6: Imprimindo Nomes com forEach()
+🟢 Nível Iniciante - Exercício 14: Imprimindo Nomes com forEach()
 
 Você tem um array de nomes. Use o método .forEach() para imprimir 
 uma saudação para cada nome.
@@ -19,4 +19,3 @@ quer apenas executar uma ação para cada item.
 */
 
 // Escreva seu código abaixo:
-

@@ -1,5 +1,5 @@
 /*
-🔴 Nível Avançado - Exercício 14: Contando Palavras com reduce()
+🔴 Nível Avançado - Exercício 22: Contando Palavras com reduce()
 
 Dada uma frase, use .reduce() para criar um objeto que conta 
 a frequência de cada palavra.
@@ -18,4 +18,3 @@ Se sim, incremente. Se não, adicione com valor 1.
 */
 
 // Escreva seu código abaixo:
-

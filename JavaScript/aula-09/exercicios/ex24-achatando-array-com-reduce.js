@@ -1,5 +1,5 @@
 /*
-🔴 Nível Avançado - Exercício 16: Achatando Array com reduce()
+🔴 Nível Avançado - Exercício 24: Achatando Array com reduce()
 
 Dado um array de arrays, use .reduce() para "achatar" transformando 
 em um único array.
@@ -16,4 +16,3 @@ Dica: Use .concat() dentro do reduce para unir acumulador com valor atual.
 */
 
 // Escreva seu código abaixo:
-

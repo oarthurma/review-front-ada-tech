@@ -1,5 +1,5 @@
 /*
-🔴 Nível Avançado - Exercício 17: Processamento de Lista de Compras
+🔴 Nível Avançado - Exercício 25: Processamento de Lista de Compras
 
 Combine múltiplos métodos: filtre seção "Hortifruti", 
 adicione taxa de 5%, imprima com forEach().
@@ -18,4 +18,3 @@ Dica: .map() retorna novo objeto, .forEach() apenas executa ação.
 */
 
 // Escreva seu código abaixo:
-
