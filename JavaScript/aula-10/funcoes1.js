@@ -21,4 +21,16 @@ const resultado = somar(2, 3);
 console.log(resultado);
 console.log(resultado / 10);
 
+console.clear();
+
+// -------------------------------------------
+// FUNÇÕES ANÔNIMAS
+
+const dobroDoNumero = function (numero) {
+  return numero * 2;
+};
+
+const dobro = dobroDoNumero(2);
+console.log(dobro);
+
 // 27:00 próxima parte: Funções anônimas
