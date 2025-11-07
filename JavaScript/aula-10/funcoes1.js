@@ -33,4 +33,15 @@ const dobroDoNumero = function (numero) {
 const dobro = dobroDoNumero(2);
 console.log(dobro);
 
-// 27:00 próxima parte: Funções anônimas
+// -----------------------------
+// ARROW FUNCTIONS: Função Seta
+
+const subtrair = (numero1, numero2) => {
+  return numero1 - numero2;
+};
+
+const multiplicar = (numero1, numero2) => numero1 * numero2; // Se houver só uma expressão, as chaves podem ser omitidas
+
+// const triploDoNumero = numero => numero * 3; // Quando só um um parâmetro, os parênteses podem ser omitidos
+
+// 41:56 próxima parte: Objetos
