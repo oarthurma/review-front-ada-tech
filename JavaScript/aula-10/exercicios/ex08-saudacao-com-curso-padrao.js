@@ -5,3 +5,10 @@ Crie uma função com parâmetro padrão para o nome do curso.
 - Usar valor padrão para o curso
 - Retornar saudação
 */
+
+function saudacao(nome, curso = "curso de front-end Angular") {
+  // Validação: garantir que o nome foi informado
+  return `Olá, ${nome}! Seja bem vindo ao ${curso}.`;
+}
+
+console.log(saudacao());

@@ -7,7 +7,7 @@ Crie uma função que receba o nome de um estudante e retorne uma saudação per
 */
 
 function saudacao(nome) {
-  console.log(`Bem vindo ao nosso curso, ${nome}!`);
+  console.log(`Olá, ${nome}! Seja bem-vindo ao curso!`);
 }
 
 saudacao("Arthur");

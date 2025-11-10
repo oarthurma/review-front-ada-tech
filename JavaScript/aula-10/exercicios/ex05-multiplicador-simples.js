@@ -5,3 +5,9 @@ Crie uma função anônima que multiplique um número por 2.
 - Receber um número
 - Retornar o dobro
 */
+
+const dobro = function (num) {
+  return num * 2;
+};
+
+console.log(dobro(6));

@@ -5,3 +5,13 @@ Crie uma função que verifique se um valor é um número válido usando isNaN()
 - Retornar true se não for número
 - Retornar false se for número
 */
+
+function numeroValido(valor) {
+  if (isNaN(valor)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(numeroValido("3"));

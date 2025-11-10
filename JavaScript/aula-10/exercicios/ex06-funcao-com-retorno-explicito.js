@@ -5,3 +5,13 @@ Crie uma função que receba um número e retorne se ele é par ou ímpar.
 - Receber número como parâmetro
 - Retornar 'Par' ou 'Ímpar'
 */
+
+function parOuImpar(num) {
+  if (num % 2 === 0) {
+    return "Par";
+  } else {
+    return "Impar";
+  }
+}
+
+console.log(parOuImpar(2));
