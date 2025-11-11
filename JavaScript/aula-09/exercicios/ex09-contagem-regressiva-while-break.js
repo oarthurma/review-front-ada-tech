@@ -22,3 +22,21 @@ Use um if para verificar a condição do break.
 */
 
 // Escreva seu código abaixo:
+
+let i = 10;
+
+while (i > 0) {
+  console.log(i);
+  if (i === 4) {
+    break;
+  }
+  i--;
+}
+
+// versão com o for
+// for (let i = 10; i > 0; i--) {
+//   console.log(i);
+//   if (i === 4) {
+//     break;
+//   }
+// }
