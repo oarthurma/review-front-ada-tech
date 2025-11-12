@@ -1,24 +1,15 @@
 /*
-🔴 Nível Avançado - Exercício 23: Relatório de Alunos com for...in e for...of
+🔴 Nível Avançado - Exercício 23: Achatando Array com reduce()
 
-Você tem array de alunos com notas. Use for...of para iterar, 
-calcule média das notas, e use for...in para imprimir relatório.
+Dado um array de arrays, use .reduce() para "achatar" transformando em um único array.
 
 Requisitos:
-- Defina: const turma = [{ nome: "Ana", notas: [8, 9, 7] }, { nome: "Bruno", notas: [5, 6, 6] }];
-- Use for...of para iterar sobre turma
-- Calcule média de cada aluno
-- Use for...in para imprimir propriedades do relatório
+- Defina: const matriz = [[1, 2], [3, 4, 5], [6]];
+- Use .reduce() para concatenar os arrays
+- Valor inicial do acumulador deve ser []
 
 Exemplo de saída esperada:
---- Relatório de Ana ---
-nome: Ana
-media: 8
---- Relatório de Bruno ---
-nome: Bruno
-media: 5.67
+[1, 2, 3, 4, 5, 6]
 
-Dica: Use .reduce() dentro do for...of para somar notas e calcular média.
+Dica: Use .concat() dentro do reduce para unir acumulador com valor atual.
 */
-
-// Escreva seu código abaixo:

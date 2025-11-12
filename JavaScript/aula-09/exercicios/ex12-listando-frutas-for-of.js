@@ -19,4 +19,9 @@ Dica: for...of é ideal para iterar sobre valores de arrays
 sem precisar de índice.
 */
 
-// Escreva seu código abaixo:
+const frutas = ["Maçã", "Banana", "Uva", "Laranja"]; // Array de frutas
+
+// Itera sobre cada valor do array usando for...of
+for (const fruta of frutas) {
+  console.log(fruta); // Exibe a fruta atual
+}

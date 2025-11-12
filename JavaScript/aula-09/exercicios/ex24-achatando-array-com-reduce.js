@@ -1,18 +1,26 @@
 /*
-🔴 Nível Avançado - Exercício 24: Achatando Array com reduce()
+🔴 Nível Avançado - Exercício 24: Relatório de Alunos com Média
 
-Dado um array de arrays, use .reduce() para "achatar" transformando 
-em um único array.
+Você tem um array de alunos com suas notas. Para cada aluno:
+1. Calcule a média das notas usando .reduce()
+2. Crie um relatório com nome e média
+3. Imprima o relatório formatado
 
 Requisitos:
-- Defina: const matriz = [[1, 2], [3, 4, 5], [6]];
-- Use .reduce() para concatenar os arrays
-- Valor inicial do acumulador deve ser []
+- Defina: const turma = [
+    { nome: "Ana", notas: [8, 9, 7] },
+    { nome: "Bruno", notas: [5, 6, 6] }
+];
+- Use for...of para iterar sobre os alunos
+- Dentro do loop, use .reduce() para calcular a média
+- Imprima o relatório com o seguinte formato:
+--- Relatório de Ana ---
+nome: Ana
+media: 8
+--- Relatório de Bruno ---
+nome: Bruno
+media: 5.67
 
-Exemplo de saída esperada:
-[1, 2, 3, 4, 5, 6]
-
-Dica: Use .concat() dentro do reduce para unir acumulador com valor atual.
+Dica: Para calcular a média:
+const media = notas.reduce((total, n) => total + n, 0) / notas.length;
 */
-
-// Escreva seu código abaixo:

@@ -5,3 +5,9 @@ Crie uma função que receba dois números, some e divida o resultado por 2.
 - Somar e dividir
 - Retornar resultado
 */
+
+function somaDiv(num1, num2) {
+  return (num1 + num2) / 2;
+}
+
+console.log(somaDiv(8, 4));

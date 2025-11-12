@@ -18,4 +18,13 @@ Dica: A variável do loop for...in receberá o nome da chave.
 Use objeto[chave] para acessar o valor.
 */
 
-// Escreva seu código abaixo:
+const carro = {
+  marca: "Tesla",
+  modelo: "Model S",
+  ano: 2024,
+};
+
+// Intera sobre cada chave do objeto usando for...in
+for (const propriedade in carro) {
+  console.log(`${propriedade}: ${carro[indice]}`); // Exibe chave e valor
+}

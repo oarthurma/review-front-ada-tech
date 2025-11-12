@@ -16,3 +16,16 @@ Valor atual: 11 - Válido! Loop encerrado.
 Dica: A principal característica do do-while é executar o bloco 
 pelo menos uma vez antes de checar a condição.
 */
+
+let num = 5; // Valor inicial menor que 10
+
+do {
+  console.log(`Valor atual: ${num} - Inválido`);
+  if (num < 9) {
+    num += 4;
+  } else {
+    num += 2;
+  }
+} while (num <= 10);
+
+console.log(`Valor atual: ${num} - Válido! Loop encerrado.`);

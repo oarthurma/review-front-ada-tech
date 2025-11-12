@@ -4,7 +4,11 @@
 Crie relatório mostrando valor total vendido por categoria usando .reduce().
 
 Requisitos:
-- Defina: const vendas = [{ prod: "A", cat: "Eletrônicos", valor: 100 }, { prod: "B", cat: "Roupas", valor: 50 }, { prod: "C", cat: "Eletrônicos", valor: 150 }];
+- Defina: const vendas = [
+    { prod: "A", cat: "Eletrônicos", valor: 100 },
+    { prod: "B", cat: "Roupas", valor: 50 },
+    { prod: "C", cat: "Eletrônicos", valor: 150 }
+];
 - Use .reduce() para agrupar por categoria
 - Objeto final deve ter categorias como chaves e totais como valores
 - (Desafio) Use for...in para imprimir relatório
@@ -15,8 +19,6 @@ Exemplo de saída esperada:
 Total Eletrônicos: 250
 Total Roupas: 50
 
-Dica: No reduce, o acumulador é o objeto de relatório. 
+Dica: No reduce, o acumulador é o objeto de relatório.
 Verifique se acumulador[venda.cat] já existe.
 */
-
-// Escreva seu código abaixo:
