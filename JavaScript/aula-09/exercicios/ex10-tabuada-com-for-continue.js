@@ -24,4 +24,29 @@ Exemplo de saída esperada (para 7 com desafio):
 Dica: A variável de controle do for (geralmente i) será seu multiplicador.
 */
 
-// Escreva seu código abaixo:
+const numero = 7; // Número da tabuada
+
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    // Pula a multiplicação por 5
+    continue;
+  }
+  const resultado = numero * i; // Calcula o resultado da multiplicação
+  console.log(`${numero} x ${i} = ${resultado}`); // Imprime no formato desejado
+}
+console.log(`\n`);
+
+// Desafio Extra - Crie uma função que receba qualquer número e imprima sua tabuada, pulando múltiplos de um número escolhido:
+
+const calculaTabuada = (num, escolhido) => {
+  console.log(`Tabuada do ${num} (pulando múltiplos de ${escolhido}):`);
+  for (let i = 1; i <= 10; i++) {
+    const resultado = num * i;
+    if (resultado % escolhido === 0) {
+      continue;
+    }
+    console.log(`${num} x ${i} = ${resultado}`);
+  }
+};
+
+calculaTabuada(7, 2);

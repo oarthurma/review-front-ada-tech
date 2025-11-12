@@ -16,5 +16,3 @@ Valor atual: 11 - Válido! Loop encerrado.
 Dica: A principal característica do do-while é executar o bloco 
 pelo menos uma vez antes de checar a condição.
 */
-
-// Escreva seu código abaixo:
