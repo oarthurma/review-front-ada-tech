@@ -5,3 +5,33 @@ Crie uma função que receba dois números e uma operação (+, -, *, /) e retor
 - Usar if ou switch
 - Retornar o resultado da operação
 */
+
+function calcular(num1, num2, op) {
+  // Validação opcional para garantir que os parâmetros são números
+  if (typeof num1 !== "number" || typeof num2 !== "number") {
+    return "Erro: parâmetros inválidos!";
+  }
+
+  switch (op) {
+    case "+":
+      return num1 + num2; // Soma
+
+    case "-":
+      return num1 - num2; // Subtração
+
+    case "*":
+      return num1 * num2; // Multiplicação
+
+    case "/":
+      if (num2 === 0) {
+        return "Erro: divisão por zero!";
+      }
+      return num1 / num2; // Divisão
+
+    default:
+      return "Operação inválida"; // Caso padrão
+  }
+}
+
+// Teste da função
+console.log(calcular(5, 2, "*"));

@@ -17,5 +17,15 @@ Prata
 Dica: Lembre-se da sintaxe basica: const nomeObjeto = { propriedade: valor };
 */
 
-// Escreva seu codigo abaixo:
+const carro = {
+  marca: "Toyota", // Marca do carro
+  modelo: "Corolla", // Modelo do carro
+  ano: 2022, // Ano de fabricação
+  cor: "Prata",
+}; // Cor do carro
 
+// Exibindo cada propriedade separadamente usando notação de ponto
+console.log(carro.marca);
+console.log(carro.modelo);
+console.log(carro.ano);
+console.log(carro.cor);

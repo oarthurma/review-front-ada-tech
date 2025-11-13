@@ -13,6 +13,3 @@ Exemplo de saida esperada:
 
 Dica: A notacao de colchetes usa aspas ao redor do nome da propriedade.
 */
-
-// Escreva seu codigo abaixo:
-
