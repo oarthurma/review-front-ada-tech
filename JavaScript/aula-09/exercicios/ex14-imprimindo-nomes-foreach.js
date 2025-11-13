@@ -17,5 +17,3 @@ Olá, Carla
 Dica: .forEach() é um substituto moderno para loops quando você 
 quer apenas executar uma ação para cada item.
 */
-
-// Escreva seu código abaixo:
