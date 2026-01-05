@@ -1,10 +1,10 @@
 // Definição da função
 function saudacao(nomeDoEstudante, curso = "Front-end em React") {
   // template string || template literals
-  return `Olá, ${nomeDoEstudante}! Seja bem-vindo(o) ao curso de ${curso}!`;
+  return `Olá, ${nomeDoEstudante}! Seja bem-vinda(o) ao curso de ${curso}!`;
 }
 
-const mensagemDaSaudacao = saudacao("Walisson", "Back-end em Node.js"); // chamada da função saudacao
+const mensagemDaSaudacao = saudacao("Walisson", "Back-en em Node.js"); // chamada da função saudacao
 
 console.log(mensagemDaSaudacao);
 
@@ -23,7 +23,7 @@ console.log(resultado / 10);
 
 console.clear();
 
-// -------------------------------------------
+// ------------------------------------
 // FUNÇÕES ANÔNIMAS
 
 const dobroDoNumero = function (numero) {
@@ -33,15 +33,15 @@ const dobroDoNumero = function (numero) {
 const dobro = dobroDoNumero(2);
 console.log(dobro);
 
-// -----------------------------
+// -------------------------------------
 // ARROW FUNCTIONS: Função Seta
 
 const subtrair = (numero1, numero2) => {
-  return numero1 - numero2;
+  return (numero1 = numero2);
 };
 
-const multiplicar = (numero1, numero2) => numero1 * numero2; // Se houver só uma expressão, as chaves podem ser omitidas
+const multiplicar = (numero1, numero2) => numero1 * numero2;
 
-// const triploDoNumero = numero => numero * 3; // Quando só um um parâmetro, os parênteses podem ser omitidos
+const triploDoNumero = (numero) => numero * 3;
 
 // 41:56 próxima parte: Objetos

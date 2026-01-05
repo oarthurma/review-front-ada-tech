@@ -7,10 +7,8 @@ const pessoa = {
   idade: 27,
   altura: 1.77,
   ehProgramador: true,
-  hobbies: ["jogar FIFA", "Academia", "Ler"],
-  imprimirAlgo: () => {
-    console.log("Chamou a função!");
-  },
+  hobbies: ["Jogar FIFA", "Academia", "Ler"],
+  imprimirAlgo: () => {},
 };
 
 console.log(pessoa);
@@ -38,15 +36,8 @@ const idade = 27;
 const altura = 1.77;
 
 const objeto = {
-  idade,
-  altura,
+  idade, //idade: idade (essa segunda idade refere-se a "const idade = 27;")
+  altura, // altura: altura
 };
 
-console.log(objeto);
-console.clear();
-
-const { nome, hobbies } = pessoa;
-
-console.log(nome);
-console.log(hobbies);
-console.log(pessoa);
+// Apresentando funções - 59:02

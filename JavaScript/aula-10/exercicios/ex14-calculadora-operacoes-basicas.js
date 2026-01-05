@@ -35,3 +35,20 @@ function calcular(num1, num2, op) {
 
 // Teste da função
 console.log(calcular(5, 2, "*"));
+
+const calculadora = (num1, num2, op) => {
+  switch (op) {
+    case "+":
+      return num1 + num2;
+    case "-":
+      return num1 - num2;
+    case "*":
+      return num1 * num2;
+    case "/":
+      return num1 / num2;
+    default:
+      return "Operaçao inválida";
+  }
+};
+
+console.log(calculadora(3, 2, "*"));
