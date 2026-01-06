@@ -13,3 +13,12 @@ Exemplo de saida esperada:
 
 Dica: A notacao de colchetes usa aspas ao redor do nome da propriedade.
 */
+
+const livro = {
+  titulo: "Em um sol Nascente",
+  autor: "Ludimilo",
+  paginas: 52,
+  anoPublicacao: 2020,
+};
+
+console.log(livro["anoPublicacao"]);
