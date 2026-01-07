@@ -15,5 +15,17 @@ Depois: { nome: Mouse, preco: 45, estoque: 15, disponivel: false }
 Dica: Modificar e igual a adicionar, mas a propriedade ja existe.
 */
 
-// Escreva seu codigo abaixo:
+const produto = {
+  nome: "Mouse",
+  preco: 50,
+  estoque: 15,
+  disponivel: true,
+};
+console.log("Antes:");
+console.log(produto);
 
+produto.preco = 45;
+produto["disponivel"] = false;
+
+console.log("\nDepois:");
+console.log(produto);

@@ -14,5 +14,11 @@ Imagine
 Dica: Para acessar: objeto.arrayPropriedade[indice]
 */
 
-// Escreva seu codigo abaixo:
+// Criando o objeto
+const playlist = {
+  nome: "Músicas Nostalgicas",
+  criador: "Rogerinho Show",
+  musicas: ["rebolando até o chão", "aqui e agora", "vinagre com cerveja"],
+};
 
+console.log(playlist.musicas[1]);

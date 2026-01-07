@@ -15,5 +15,19 @@ Depois: { nome: Carlos, idade: 20, curso: Engenharia, semestre: 3 }
 Dica: O operador delete remove a propriedade completamente do objeto.
 */
 
-// Escreva seu codigo abaixo:
+// Criando o objeto
+const aluno = {
+  nome: "Carlos",
+  idade: 20,
+  curso: "Engenharia",
+  semestre: 3,
+  mediaGeral: 8.5,
+};
 
+console.log("Antes: ");
+console.log(aluno);
+
+delete aluno.mediaGeral;
+
+console.log("\nDepois: ");
+console.log(aluno);

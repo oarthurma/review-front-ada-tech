@@ -14,5 +14,10 @@ Exemplo de saida esperada:
 Dica: Para adicionar propriedades: objeto.novaPropriedade = valor;
 */
 
-// Escreva seu codigo abaixo:
+const usuario = { nome: "Ana Silva", email: "ana@email.com" };
 
+usuario.idade = 28;
+usuario.cidade = "Sao Paulo";
+usuario.telefone = "1999999999";
+
+console.log(usuario);
